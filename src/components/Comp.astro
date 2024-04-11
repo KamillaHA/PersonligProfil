@@ -1,44 +1,39 @@
-<section id="Comp">
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
+---
+import { Image } from "astro:assets";
+import five from "../assets/images/5.png";
+import four from "../assets/images/4.png";
+import two from "../assets/images/2.png";
+---
+
+<section id="Comp" class="grid grid-cols-7">
+  <p class="col-start-2 cols-span-1 row-start-1">Dansk</p>
+  <Image
+    src={five}
+    alt="fem stjerner"
+    class="w-full h-full col-start-3 row-start-1"
+  />
+  <p class="col-start-2 col-span-1 row-start-2">Engelsk</p>
+  <Image
+    src={four}
+    alt="fire stjerner"
+    class="w-full h-full col-start-3 row-start-2"
+  />
+  <p class="col-start-5 cols-span-1 row-start-1">HTML/Astro</p>
+  <Image
+    src={five}
+    alt="fem stjerner"
+    class="w-full h-full col-start-6 row-start-1"
+  />
+  <p class="col-start-5 col-span-1 row-start-2">TailwindCSS</p>
+  <Image
+    src={four}
+    alt="fire stjerner"
+    class="w-full h-full col-start-6 row-start-2"
+  />
+  <p class="col-start-5 col-span-1 row-start-3">JavaScript</p>
+  <Image
+    src={two}
+    alt="fire stjerner"
+    class="w-full h-full col-start-6 row-start-3"
+  />
 </section>
