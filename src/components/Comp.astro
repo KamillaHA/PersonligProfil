@@ -3,37 +3,87 @@ import { Image } from "astro:assets";
 import five from "../assets/images/5.png";
 import four from "../assets/images/4.png";
 import two from "../assets/images/2.png";
+import three from "../assets/images/3.png";
 ---
 
-<section id="Comp" class="grid grid-cols-7">
-  <p class="col-start-2 cols-span-1 row-start-1">Dansk</p>
-  <Image
-    src={five}
-    alt="fem stjerner"
-    class="w-full h-full col-start-3 row-start-1"
-  />
-  <p class="col-start-2 col-span-1 row-start-2">Engelsk</p>
-  <Image
-    src={four}
-    alt="fire stjerner"
-    class="w-full h-full col-start-3 row-start-2"
-  />
-  <p class="col-start-5 cols-span-1 row-start-1">HTML/Astro</p>
-  <Image
-    src={five}
-    alt="fem stjerner"
-    class="w-full h-full col-start-6 row-start-1"
-  />
-  <p class="col-start-5 col-span-1 row-start-2">TailwindCSS</p>
-  <Image
-    src={four}
-    alt="fire stjerner"
-    class="w-full h-full col-start-6 row-start-2"
-  />
-  <p class="col-start-5 col-span-1 row-start-3">JavaScript</p>
-  <Image
-    src={two}
-    alt="fire stjerner"
-    class="w-full h-full col-start-6 row-start-3"
-  />
+<section id="Comp">
+  <h2 class="text-center text-3xl font-bold mt-20">Kompetencer</h2>
+  <div class="grid grid-cols-7 mt-10">
+    <h3 class="text-xl font-bold col-start-2 row-start-5 mb-10 mt-10">Sprog</h3>
+    <p class="col-start-2 cols-span-1 row-start-6 pb-4">Dansk:</p>
+    <Image
+      src={five}
+      alt="fem stjerner"
+      class="w-full h-full col-start-3 row-start-6 pb-4"
+    />
+    <p class="col-start-2 col-span-1 row-start-7 pb-4">Engelsk:</p>
+    <Image
+      src={four}
+      alt="fire stjerner"
+      class="w-full h-full col-start-3 row-start-7 pb-4"
+    />
+    <h3 class="text-xl font-bold col-start-5 row-start-1 mb-10 mt-10">
+      Kodning
+    </h3>
+    <p class="col-start-5 cols-span-1 row-start-2 pb-4">HTML/Astro:</p>
+    <Image
+      src={five}
+      alt="fem stjerner"
+      class="w-full h-full col-start-6 row-start-2 pb-4"
+    />
+    <p class="col-start-5 col-span-1 row-start-3 pb-4">TailwindCSS:</p>
+    <Image
+      src={four}
+      alt="fire stjerner"
+      class="w-full h-full col-start-6 row-start-3 pb-4"
+    />
+    <p class="col-start-5 col-span-1 row-start-4 pb-4">JavaScript:</p>
+    <Image
+      src={two}
+      alt="to stjerner"
+      class="w-full h-full col-start-6 row-start-4 pb-4"
+    />
+    <h3 class="text-xl font-bold col-start-5 row-start-5 mb-10 mt-10">
+      Design og indhold
+    </h3>
+    <p class="col-start-5 col-span-1 row-start-6 pb-4">UX:</p>
+    <Image
+      src={four}
+      alt="fire stjerner"
+      class="w-full h-full col-start-6 row-start-6 pb-4"
+    />
+    <p class="col-start-5 col-span-1 row-start-7 pb-4">UI:</p>
+    <Image
+      src={three}
+      alt="tre stjerner"
+      class="w-full h-full col-start-6 row-start-7 pb-4"
+    />
+    <p class="col-start-5 col-span-1 row-start-8 pb-4">SoMe:</p>
+    <Image
+      src={four}
+      alt="fire stjerner"
+      class="w-full h-full col-start-6 row-start-8 pb-4"
+    />
+    <h3 class="text-xl font-bold col-start-2 row-start-1 mb-10 mt-10">
+      Personlig
+    </h3>
+    <li class="col-start-2 cols-span-1 row-start-2 pb-4 list-disc ml-6">
+      Detaljeorienteret
+    </li>
+    <li class="col-start-3 cols-span-1 row-start-2 pb-4 list-disc ml-6">
+      Planlægning
+    </li>
+    <li class="col-start-2 cols-span-1 row-start-3 pb-4 list-disc ml-6">
+      Struktureret
+    </li>
+    <li class="col-start-3 cols-span-1 row-start-3 pb-4 list-disc ml-6">
+      Omstillingsparat
+    </li>
+    <li class="col-start-2 cols-span-1 row-start-4 pb-4 list-disc ml-6">
+      Lærenem
+    </li>
+    <li class="col-start-3 cols-span-1 row-start-4 pb-4 list-disc ml-6">
+      Selvstændighed
+    </li>
+  </div>
 </section>

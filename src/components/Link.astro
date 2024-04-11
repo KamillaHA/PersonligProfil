@@ -1,31 +1,15 @@
-<section id="Link">
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
+---
+import { Image } from "astro:assets";
+import Git from "../assets/images/git.svg";
+import Linked from "../assets/images/linked.svg";
+import Mail from "../assets/images/mail.png";
+---
 
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
-  <p class="col-span-3 col-start-2 row-start-3 mr-6 ml-6">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform, er
-    jeg sikker på, at jeg kan være med til at løfte de stillede opgaver inde for
-    webudvikling og frontend.
-  </p>
+<section id="Link" class="mb-10">
+  <h2 class="text-center text-3xl font-bold my-10">Kontakt</h2>
+  <div class="flex items-center justify-center gap-16">
+    <a href="#Comp"><Image src={Git} alt="Link til GitHub" /></a>
+    <a href="#Comp"><Image src={Linked} alt="Link til LinkedInd" /></a>
+    <a href="#Comp"><Image src={Mail} alt="Link til mail" /></a>
+  </div>
 </section>
