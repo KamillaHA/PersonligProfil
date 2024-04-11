@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+import Mig from "../assets/images/mig.JPG";
+---
+
+<div class="grid grid-cols-8">
+  <p class="col-span-3 col-start-2 row-start-5 mr-6 ml-6">
+    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
+    stor interesse for at opnå en masse erfaring inde for fagets forskellige
+    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform,
+    drømmer jeg om et praktiksted, hvor jeg kan udfolde mine evner samt løfte de
+    stillede opgaver indenfor kodning og indhold.<br />Min store interesse for
+    frontend inspirerer mig til, at blive endnu bedre indenfor faget, samtidig
+    med at jeg ikke er bleg for at have forskellige arbejdsopgaver der spreder
+    bredt.
+  </p>
+
+  <div class="grid col-start-5 col-span-3 row-span-6 relative">
+    <h1 class="absolute top-32 -left-80 text-8xl -ml-40">Kamilla Huhnke</h1>
+    <Image src={Mig} alt="billede af Kamilla Huhnke" class="w-full h-full" />
+  </div>
+</div>
