@@ -9,9 +9,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        hfarve: 
-      },
+      colors: {},
       fontFamily: {},
       backgroundImage: {
         mig: "url('/src/assets/images/mig.JPG')",
