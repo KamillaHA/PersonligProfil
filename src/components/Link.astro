@@ -5,18 +5,27 @@ import Linked from "../assets/images/linked.svg";
 import Mail from "../assets/images/at.png";
 ---
 
-<section id="Link" class="mb-10">
-  <h2 class="text-center text-3xl font-bold my-10 text-textc">Kontakt</h2>
-  <div class="flex items-center justify-center gap-16">
+<section id="Link" class="bg-backg">
+  <h2
+    class="text-center text-3xl font-bold my-16 text-textc pt-8 underline decoration-solid font-pops"
+  >
+    Kontakt
+  </h2>
+  <div class="flex items-center justify-center gap-16 pb-10">
     <a href="https://github.com/KamillaHA" target="blank_"
-      ><Image src={Git} alt="Link til GitHub" /></a
+      ><Image src={Git} alt="Link til GitHub" class="hover:scale-110 w-14" /></a
     >
     <a
       href="https://www.linkedin.com/in/kamilla-huhnke-andersen-1361751b2/"
-      target="blank_"><Image src={Linked} alt="Link til LinkedInd" /></a
+      target="blank_"
+      ><Image
+        src={Linked}
+        alt="Link til LinkedIn"
+        class="hover:scale-110 w-14"
+      /></a
     >
     <a href="mailto:kamillahuhnke@me.com" target="blank_"
-      ><Image src={Mail} alt="Link til mail" /></a
+      ><Image src={Mail} alt="Link til mail" class="hover:scale-110 w-14" /></a
     >
   </div>
 </section>

@@ -13,9 +13,13 @@ module.exports = {
         backg: "#DAD5CF",
         textc: "#2E1915",
       },
-      fontFamily: {},
+      fontFamily: {
+        popss: ["poppins"],
+        pops: ["poppins light"],
+        pop: ["poppins extralight"],
+      },
       backgroundImage: {
-        mig: "url('/src/assets/images/mig.JPG')",
+        mig: "url('/src/assets/images/mig.png')",
       },
     },
   },

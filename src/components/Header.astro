@@ -1,13 +1,30 @@
-<nav class="fixed top-0 left-0 right-0 hover:bg-white/75 z-10">
-  <ul class="flex justify-end mr-20 gap-20 p-2">
-    <li class="font-bold hover:underline decoration-solid text-textc">
+<nav class="fixed top-0 left-0 right-0 z-10 transition ease-in duration-300">
+  <ul class="flex justify-end mr-36 gap-20 p-2">
+    <li class="font-bold hover:underline decoration-solid text-textc font-pop">
       <a href="#Comp">Kompetencer</a>
     </li>
-    <li class="font-bold hover:underline decoration-solid text-textc">
+    <li class="font-bold hover:underline decoration-solid text-textc font-pop">
       <a href="#Project">Projekter</a>
     </li>
-    <li class="font-bold hover:underline decoration-solid text-textc">
+    <li class="font-bold hover:underline decoration-solid text-textc font-pop">
       <a href="#Link">Kontakt</a>
     </li>
   </ul>
 </nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector("nav");
+
+    window.addEventListener("scroll", function () {
+      const compSectionHeight = document.getElementById("Comp").offsetHeight;
+      const scrollPosition = window.scrollY;
+
+      if (scrollPosition >= compSectionHeight - header.offsetHeight) {
+        header.classList.add("bg-backg");
+      } else {
+        header.classList.remove("bg-backg");
+      }
+    });
+  });
+</script>
