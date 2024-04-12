@@ -9,7 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        backg: "#DAD5CF",
+        textc: "#2E1915",
+      },
       fontFamily: {},
       backgroundImage: {
         mig: "url('/src/assets/images/mig.JPG')",
