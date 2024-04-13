@@ -15,7 +15,10 @@ module.exports = {
       },
       fontFamily: {
         pops: ["poppins light", "url('https://use.typekit.net/sow1cek.css');"],
-        pop: ["poppins extralight"],
+        pop: [
+          "poppins extralight",
+          "url('https://use.typekit.net/sow1cek.css');",
+        ],
       },
       backgroundImage: {
         mig: "url('/src/assets/images/mig.png')",
