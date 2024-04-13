@@ -14,12 +14,21 @@ module.exports = {
         textc: "#2E1915",
       },
       fontFamily: {
-        pops: ["poppins light", "url('https://use.typekit.net/sow1cek.css');"],
+        pops: ["poppins light"],
         pop: [
           "poppins extralight",
-          "url('https://use.typekit.net/sow1cek.css');",
+
+          // "url('https://use.typekit.net/sow1cek.css')",
         ],
       },
+      // fontWeight: {
+      //   pops: "300", // Define font weight 300 as 'light'
+      //   pop: "200", // Define font weight 200 as 'extralight'
+      // },
+      // fontStyle: {
+      //   pops: "normal",
+      //   pop: "normal",
+      // },
       backgroundImage: {
         mig: "url('/src/assets/images/mig.png')",
       },
