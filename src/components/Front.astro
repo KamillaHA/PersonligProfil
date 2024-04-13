@@ -3,26 +3,30 @@ import { Image } from "astro:assets";
 import Mig from "../assets/images/mig.png";
 ---
 
-<div class="grid grid-cols-8">
-  <p class="col-span-3 col-start-2 row-start-5 mr-6 ml-6 text-textc font-pops">
-    Hej, mit navn er Kamilla.<br />Jeg er en kommende multimediedesigner med
-    stor interesse for at opnå en masse erfaring inde for fagets forskellige
-    muligheder. <br />Med min sans for detaljen og strukturerede arbejdsform,
-    drømmer jeg om et praktiksted, hvor jeg kan udfolde mine evner samt løfte de
-    stillede opgaver indenfor kodning og indhold.<br />Min store interesse for
-    frontend inspirerer mig til, at blive endnu bedre indenfor faget, samtidig
-    med at jeg ikke er bleg for at have forskellige arbejdsopgaver der spreder
-    bredt.
-  </p>
+<section id="Om">
+  <div class="grid grid-cols-8">
+    <p
+      class="col-span-3 col-start-2 row-start-5 mr-6 ml-6 text-textc font-pops"
+    >
+      Hej, mit navn er Kamilla.<br /><br />Jeg er kommende multimediedesigner
+      med stor interesse for at opnå en masse erfaring inde for fagets
+      forskellige muligheder. <br /><br />Med min strukturerede arbejdsform og
+      sans for detaljen drømmer jeg om et praktiksted, hvor jeg kan udfolde mine
+      evner, samt løfte de stillede opgaver inde for kodning og indhold.<br
+      /><br />Min store interesse for frontend inspirerer mig til at blive endnu
+      bedre indenfor faget, samtidig med at jeg brænder for, at have forskellige
+      arbejdsopgaver der spænder vidt.
+    </p>
 
-  <div class="grid col-start-5 col-span-3 row-span-6 relative">
-    <h1 class="absolute top-36 -left-80 text-8xl -ml-56 text-textc font-pop">
-      Kamilla Huhnke
-    </h1>
-    <Image
-      src={Mig}
-      alt="billede af Kamilla Huhnke"
-      class="w-full h-full ml-12"
-    />
+    <div class="grid col-start-5 col-span-3 row-span-6 relative">
+      <h1 class="absolute top-36 -left-80 text-8xl -ml-56 text-textc font-pop">
+        Kamilla Huhnke
+      </h1>
+      <Image
+        src={Mig}
+        alt="billede af Kamilla Huhnke"
+        class="w-full h-full ml-10"
+      />
+    </div>
   </div>
-</div>
+</section>
