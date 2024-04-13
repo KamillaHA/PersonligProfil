@@ -14,7 +14,7 @@ module.exports = {
         textc: "#2E1915",
       },
       fontFamily: {
-        pops: ["poppins light"],
+        pops: ["poppins light", "url('https://use.typekit.net/sow1cek.css');"],
         pop: ["poppins extralight"],
       },
       backgroundImage: {

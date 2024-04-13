@@ -2,13 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://use.typekit.net/sow1cek.css");
-
-/* @layer base {
-  @font-face {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-display: auto;
-    src: url("https://use.typekit.net/sow1cek.css") format("woff2");
-  }
-} */
