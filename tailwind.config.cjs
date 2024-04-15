@@ -17,7 +17,9 @@ module.exports = {
         pops: ["poppins light, sans-serif"],
         pop: ["poppins extralight, sans-serif"],
       },
-
+      fontSize: {
+        big: "2.75rem",
+      },
       backgroundImage: {
         mig: "url('/src/assets/images/mig.png')",
       },
