@@ -14,8 +14,8 @@ module.exports = {
         textc: "#2E1915",
       },
       fontFamily: {
-        pops: ['"Poppins Light"'],
-        pop: ['"Poppins ExtraLight"'],
+        pops: ['"poppins light"'],
+        pop: ['"poppins extralight"'],
       },
       fontSize: {
         big: "2.75rem",
